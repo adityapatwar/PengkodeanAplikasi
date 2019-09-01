@@ -20,15 +20,16 @@
             android:text="AC"
             android:textStyle="bold"/>
         <TextView
-            android:id="@+id/hasil"
-            android:inputType="number"
-            android:layout_width="match_parent"
+            android:id="@+id/txtDisplay"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:paddingTop="20dp"
-            android:paddingLeft="30dp"
-            android:textSize="45dp"
-
-            />
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="4"
+            android:gravity="right|center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp"
+            android:typeface="serif" />
     </LinearLayout>
 
     <LinearLayout
@@ -66,7 +67,7 @@
                 android:textStyle="bold"
                 android:textSize="20sp"/>
             <Button
-                android:id="@+id/btn_p"
+                android:id="@+id/btnTambah"
                 android:layout_width="80dp"
                 android:layout_height="55dp"
                 android:text="+"
@@ -74,7 +75,7 @@
                 android:textSize="20sp"/>
             <Button
 
-                android:id="@+id/btn_k"
+                android:id="@+id/btnKali"
                 android:layout_width="80dp"
                 android:layout_height="55dp"
                 android:text="*"
@@ -161,7 +162,7 @@
                 android:textStyle="bold"
                 android:textSize="20sp"/>
             <Button
-                android:id="@+id/btn_m"
+                android:id="@+id/btnKurang"
                 android:layout_width="80dp"
                 android:layout_height="55dp"
                 android:text="-"
@@ -169,7 +170,7 @@
                 android:textSize="20sp"/>
             <Button
 
-                android:id="@+id/btn_b"
+                android:id="@+id/btnBagi"
                 android:layout_width="80dp"
                 android:layout_height="55dp"
                 android:text="/"
