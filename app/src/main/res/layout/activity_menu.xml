@@ -11,20 +11,23 @@
     android:orientation="vertical"
     tools:context=".Menu">
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Kalkulator"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-/>
+
     <Button
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Menghitung"
+        android:text="Latihan 1"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latihan 2"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+
     <Button
         android:id="@+id/btn3"
         android:layout_width="match_parent"

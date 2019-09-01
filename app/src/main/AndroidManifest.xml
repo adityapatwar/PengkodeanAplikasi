@@ -10,13 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Kalkulator2"></activity>
-        <activity android:name=".Menu" />
-        <activity android:name=".KonversiSuhu">
+        <activity android:name=".Menu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".KonversiSuhu">
+
         </activity>
         <activity android:name=".Kalkulator" />
         <activity android:name=".MenghitungLuas" />

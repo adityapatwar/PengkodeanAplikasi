@@ -32,10 +32,15 @@ public class Kalkulator extends AppCompatActivity implements View.OnClickListene
         vBtnKali.setOnClickListener (this);
         vBtnBagi.setOnClickListener (this);
 
+
+
     }
 
     @Override
     public void onClick(View v) {
+        yTectA = Float.parseFloat (vTextA.getText ().toString ());
+        yTextB = Float.parseFloat (vTextB.getText ().toString ());
+
         switch(v.getId ()){
             case R.id.btnTambah :
                 yTextC = yTectA + yTextB;
@@ -53,8 +58,6 @@ public class Kalkulator extends AppCompatActivity implements View.OnClickListene
                 yTextC = yTectA / yTextB;
                 vTextC.setText (yTextC+"");
                 break;
-
-
         }
 
 
